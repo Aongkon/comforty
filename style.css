@@ -69,8 +69,8 @@
   width: 600px;
   height: 70px;
   float: left;
-  padding-left: 90px;
-  padding-top: 15px;
+  margin-top: 15px;
+  margin-left: 130px;
 }
 .input-icon{
   width: 400px;
@@ -79,6 +79,7 @@
   padding-left: 100px;
   padding-top: 20px;
 }
+
 #id{
    position: absolute;
    top: 50%;
@@ -175,6 +176,9 @@ nav{
     }
   }
 }
+.none{
+  
+}
 /* container ends */
 
 
@@ -230,7 +234,7 @@ nav{
 .three-side{
   width: 600px;
   height: 600px;
-  background-image: url(image/ratul_1.png);
+  background-image: url(image/comforty-images/ratul_1.png);
 }
 
  .three-side .picture{
@@ -246,4 +250,175 @@ nav{
   height: 600px;
   padding-top: 270px;
   padding-left: 3px;
+}
+
+/* banner ends */
+
+.dong{
+  width: 1600px;
+  height: 100px;
+  background-color: #F0F2F3;
+  margin: 0 auto;
+}
+
+.main-strok{
+  width: 1600px;
+  height: 100px;
+  margin: 0 auto;
+}
+/* main-strok ends */
+
+.right-strok{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.right-top{
+  width: 200px;
+  height: 50px;
+  background-color: #F0F2F3;
+  border-bottom-left-radius: 30px;
+}
+.right-botton{
+  width: 200px;
+  height: 50px;
+}
+/* right-strok ends */
+
+.meddel-strok{
+  width: 1200px;
+  height: 100px;
+  float: left;
+  display: flex;
+  border: 1px solid  #E1E3E5;
+}
+.meddel-one{
+  width: 290px;
+  height: 100px;
+  float: left;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.dis{
+  margin-left: 20px;
+}
+.was{
+  margin-top: 5px;
+}
+img{
+  width: 46px;
+  height: 46px;
+}
+
+.meddel-two{
+  width: 340px;
+  height: 100px;
+  float: left;
+  display: flex;
+  margin-top: 20px;
+}
+.kire{ margin-top: 5px;}
+.ayloo{margin-left: 20px;}
+
+.meddel-three{
+  width: 340px;
+  height: 100px;
+  float: left;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ajja{ margin-top: 5px;}
+.ki-komo{margin-left: 20px;}
+
+.meddel-four{
+  width: 340px;
+  height: 100px;
+  float: left;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.ghuma{ margin-top: 5px;}
+.kheta{margin-left: 20px;}
+
+/* meddel-strok ends */
+.left-strok{
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.left-top{
+  width: 200px;
+  height: 50px;
+  background-color: #F0F2F3;
+  border-bottom-right-radius: 30px;
+  
+}
+.left-botton{
+  width: 200px;
+  height: 50px;
+}
+/* left-strok ends */
+
+.arafa{
+  width: 1600px;
+  height: 200px;
+  margin: 0 auto;
+}
+.aaa{ 
+  width: 340px;
+  height: 150px;
+  float: left;
+
+}
+.bbb{
+  width:140px;
+  height: 150px;
+  float: left;
+  margin-top: 50px;
+}
+.ccc{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  float: left;
+}
+.ddd{
+  width: 140px;
+  height: 150px;
+  margin-top: 50px;
+  float: left;
+}
+.eee{
+  width: 130px;
+  height: 150px;
+  margin-top: 50px;
+  float: left;
+}
+.fff{
+  width: 130px;
+  height: 150px;
+  margin-top: 50px;
+  float: left;
+}
+.ggg{
+  width: 160px;
+  height: 150px;
+  margin-top: 50px;
+  padding-left: 20px;
+  float: left;
+}
+.hhh{
+  width: 160px;
+  height: 150px;
+  margin-top: 50px;
+  padding-left: px;
+  float: left;
+}
+.iii{
+  width: 220px;
+  height: 150px;
+  float: left;
 }

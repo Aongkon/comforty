@@ -1,0 +1,134 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.main-concept{
+    width: 1400px;
+    height: 700px;
+    background-image: url(image/black\ car_1.png);
+    margin: 0 auto;
+}
+.concept-one{
+    width: 1200px;
+    height: 700px;
+    
+    float: left;
+}
+.top-work{
+    width: 1200px;
+    height: 70px;
+    
+}
+
+.mianmar{
+    width: 1200px;
+    height: 70px;
+    float: left;
+}
+.mianmar ul{
+    list-style: none;
+}
+.mianmar ul li{
+    float: left;
+}
+.mianmar ul li a{
+    text-decoration: none;
+    color: #f9f9fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+    display: block;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition:  all linear 0.4s;
+    -o-transition:  all linear 0.4s;
+}
+.mianmar ul li:hover a{
+    background: #fff;
+    color: #0b0707;
+}
+.mianmar .active{
+    border-right: 1px solid hsl(0, 0%, 100%);
+    text-transform: none;
+    display: flex;
+    font-weight: 500;
+}
+.mianmar .active:hover {
+    background: none;
+    color: #fff;
+}
+.mianmar ul li:last-child a{
+    border-right: 0;
+}
+.kkt-image{
+    width: 30px;
+    height: 37px;
+    margin-top: 15px;
+}
+
+/** top-work ends **/
+
+.second-work{
+    width: 1200px;
+    height: 60px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+.pleasure{
+    font-weight: 800;
+}
+/** second-work ends **/
+.threed-work{
+    width: 1200px;
+    height: 370px;
+    color: #fff;
+    padding-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.peragraph{
+    margin-top: 40px;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/** therd-work ends **/
+
+
+.last-work{
+    width: 1200px;
+    height: 200px;
+}
+.read{
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 70px;
+    padding-left: 60px;
+    margin-left: 40px;
+    transition: all linear 0.4s;
+}
+.last-work .read:hover{
+    background: #fff;
+    color: #000;
+}
+/** last-work ends **/
+
+.concept-two{
+    width: 200px;
+    height: 700px;
+    float: left;
+}
