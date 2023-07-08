@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>practis</title>
+    <style>
+        input:focus{
+         font-weight: 700;
+         color: blue;
+         font-style: italic;
+         background: red;
+        }
+        h1::before{
+            content: "Hello ";
+            color: red;
+            background: #f23ff8;
+            font-size: 13px;
+        }
+        .too::after{
+            content: " Bye";
+            background: #2bc36d;
+            color: blue;
+            font-family:  Times, serif;
+        }
+        body{
+            counter-reset: section;
+        }
+        li::after{
+            counter-increment: section;
+            content: "🖕  "counter(section) ": ";
+        }
+        p::before{
+            counter-increment: section;
+            content: "stupid " counter(section) ": " ;
+        }
+        ul{
+            list-style: none;
+        }
+        li:nth-child(2n){
+            background: #9be3f7;
+        }
+        p:nth-child(2n+1){
+            background: #aaf16c;
+        }
+        a:visited{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1 class="too">Lorem, ipsum dolor.</h1>
+    <h1 class="too">Lorem ipsum dolor sit amet consectetur.</h1>
+    <input class="one" type="text">
+    <br><br>
+    <input class="two" type="text">
+    <br>
+    <a href="  https://www.topuniversities.com/universities/bangladesh/computer-science-and-information-systems?country=[BD]&subjects=[468]">Top University</a>
+        
+    <a href="  https://www.topuniversities.com/universities/bangladesh/computer-science-and-information-systems?country=[BD]&subjects=[468]">Same hear</a>
+    <ul>
+        <li>Hasiv</li>
+        <li>Emon</li>
+        <li>Ruddy</li>
+        <li>Nadim</li>
+        <li>Pael</li>
+        <li>Akib</li>
+        <li>Hamza</li>
+    </ul>
+        <p>Hasiv</p>
+        <p>Emon</p>
+        <p>Ruddy</p>
+        <p>Nadim</p>
+        <p>Pael</p>
+        <p>Akib</p>
+        <p>Hamza</p>
+      
+</body>
+</html>
